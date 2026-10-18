@@ -1,0 +1,111 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Georgia, "Times New Roman", serif; 
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 50px;
+    color: #888888; 
+}
+
+
+.form-container {
+    background-color: #F7F7F7; 
+    width: 520px;
+    padding: 40px;
+    border: 1px solid #e3e3e3;
+}
+
+
+.form-header {
+    border-bottom: 1px solid #e3e3e3;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+
+.form-header h1 {
+    font-size: 28px;
+    color: #888888;
+    font-weight: bold;
+}
+
+.form-header p {
+    font-size: 13px;
+    color: #888888;
+    margin-top: 4px;
+}
+
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.form-group.align-top {
+    align-items: flex-start;
+}
+
+.form-group label {
+    width: 110px;
+    font-size: 14px;
+    color: #888888;
+    text-align: right;
+    padding-right: 15px;
+}
+
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    flex: 1;
+    padding: 8px 12px;
+    border: 1px solid #dcdcdc;
+    border-radius: 2px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 13px;
+    color: #888888;
+    background-color: #ffffff;
+    outline: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #b5b5b5;
+}
+
+textarea {
+    resize: vertical;
+}
+
+
+.button-group {
+    justify-content: flex-start;
+    padding-left: 110px; 
+    margin-top: 10px;
+}
+
+/* Send Button */
+.btn-send {
+    background-color: #E27575; 
+    color: #FFFFFF; 
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 15px;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 45px;
+    cursor: pointer;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.15);
+}
+
+.btn-send:hover {
+    background-color: #d16262;
+}
